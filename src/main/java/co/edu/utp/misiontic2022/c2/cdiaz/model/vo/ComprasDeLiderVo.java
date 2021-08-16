@@ -2,7 +2,7 @@ package co.edu.utp.misiontic2022.c2.cdiaz.model.vo;
 
 public class ComprasDeLiderVo {
     private String lider;
-    private Integer valor;
+    private Double valor;
     
     public String getLider() {
         return lider;
@@ -12,11 +12,11 @@ public class ComprasDeLiderVo {
         this.lider = lider;
     }
     
-    public Integer getValor() {
+    public Double getValor() {
         return valor;
     }
     
-    public void setValor(Integer valor) {
+    public void setValor(Double valor) {
         this.valor = valor;
     }
 
@@ -25,3 +25,4 @@ public class ComprasDeLiderVo {
         return "ComprasDeLiderVo [lider=" + lider + ", valor=" + valor + "]";
     }
 }
+ 

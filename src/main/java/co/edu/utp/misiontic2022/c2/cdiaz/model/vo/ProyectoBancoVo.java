@@ -62,6 +62,7 @@ public class ProyectoBancoVo {
                 + constructora + ", estrato=" + estrato + ", id_Proyecto=" + id_Proyecto + ", lider=" + lider + "]";
     }
 }
+
     
 
    

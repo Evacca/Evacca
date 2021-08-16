@@ -34,15 +34,22 @@ public class ComprasDeLiderDao {
             while (rset.next()) {
                 var vo = new ComprasDeLiderVo();
                 vo.setLider(rset.getString("LIDER"));
-                vo.setValor(rset.getInt("VALOR"));
+                vo.setValor(rset.getDouble("VALOR"));
 
                 respuesta.add(vo);
             }
 
-        } catch (SQLException e) {
-            System.err.println("Error: " + e);
-            e.printStackTrace();
-        }
+        }finally {
+            if (rset != null) {
+                rset.close();
+            }
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+		}
         return respuesta;
     }
 }

@@ -34,7 +34,7 @@ public class DeudasPorProyectoDao {
             while (rset.next()) {
                 var vo = new DeudasPorProyectoVo();
                 vo.setIdProyecto(rset.getInt("ID"));
-                vo.setValor(rset.getInt("VALOR"));
+                vo.setValor(rset.getDouble("VALOR"));
 
                 respuesta.add(vo);                
             } 

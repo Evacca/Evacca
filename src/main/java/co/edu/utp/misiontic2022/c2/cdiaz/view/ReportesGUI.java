@@ -1,5 +1,3 @@
-package co.edu.utp.misiontic2022.c2.cdiaz.view;
-
 import java.awt.BorderLayout;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -15,7 +13,6 @@ import javax.swing.table.AbstractTableModel;
 
 import co.edu.utp.misiontic2022.c2.cdiaz.controller.ReportesController;
 import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.ProyectosVo;
-
 
 public class ReportesGUI extends JFrame {
 
