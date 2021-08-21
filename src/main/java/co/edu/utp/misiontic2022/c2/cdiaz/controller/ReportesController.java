@@ -10,6 +10,7 @@ import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.ComprasDeLiderVo;
 import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.DeudasPorProyectoVo;
 import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.ProyectoBancoVo;
 
+
 public class ReportesController {
 
     private ProyectoBancoDao proyectoBancoDao;
@@ -33,6 +34,7 @@ public class ReportesController {
     public List<ComprasDeLiderVo> listarComprasLider() throws SQLException {
         return comprasDeLiderDao.listaCompraPorLideres();
     }
+
 }
 
 
