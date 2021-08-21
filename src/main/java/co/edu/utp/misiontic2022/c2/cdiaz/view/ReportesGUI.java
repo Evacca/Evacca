@@ -87,7 +87,7 @@ public class ReportesGUI extends JFrame {
         try {
               
             var verTabla = new VerTablaProyectos();
-            var lista = controller.listarProyectosPorBanco("conavi");
+            var lista = controller.listarProyectosPorBanco("Conavi");
             verTabla.setData(lista);
             tabla.setModel(verTabla);            
         } catch (Exception e) {

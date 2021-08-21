@@ -17,7 +17,7 @@ public class App {
         //reportesView.totalAdeudadoPorProyectosSuperioresALimite(limiteInferior);
 
         //var reportesView = new ReportesView();
-        //reportesView. lideresQueMasGastan();
+        //reportesView.lideresQueMasGastan();
 
         var frm = new ReportesGUI();
         frm.setVisible(true);

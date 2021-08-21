@@ -35,6 +35,10 @@ public class ReportesController {
         return comprasDeLiderDao.listaCompraPorLideres();
     }
 
+    public Object listarProyectosPorBanco() {
+        return null;
+    }
+
 }
 
 
